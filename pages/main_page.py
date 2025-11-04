@@ -2,7 +2,7 @@
 import allure
 from playwright.sync_api import sync_playwright, expect
 
-browser=sync_playwright().start().chromium.launch(headless=False)
+browser=sync_playwright().start().chromium.launch(headless=True)
 page = browser.new_page()
 
 class click_check:

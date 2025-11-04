@@ -2,7 +2,6 @@
 README.md
 __pycache__/
 tests/allure-results
-allure
 # Playwright
 node_modules/
 /test-results/
